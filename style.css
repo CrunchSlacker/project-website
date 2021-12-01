@@ -10,11 +10,11 @@ body {
     font-size: 28px;
 }
 
-.colors h1, .fonts h1{
+.colors h1, .fonts h1, .text h1, .text h2, .text h4, .text p{
     text-indent: 4.3%;
 }
 
-.colors ul, .fonts ul{
+.colors ul, .fonts ul, .text ul{
     margin: 0px auto;
     padding: 50px;
 }
@@ -67,29 +67,10 @@ body {
     text-decoration: underline;
 }
 
-.WS h4, .NSJ h4, .QS h4{
-    font-size: medium;
-}
-
-.WS #bold {
-    font-family: "Work Sans", sans-serif;
-    font-weight: bolder;
-}
-
-#italic {
-    font-style: italic;
-}
-
 .NSJ h2{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: normal;
     text-decoration: underline;
-
-}
-
-.NSJ #bold {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: bolder;
 }
 
 .QS h2{
@@ -98,14 +79,64 @@ body {
     text-decoration: underline;
 }
 
-.QS #bold {
+.WS h4, .NSJ h4, .QS h4{
+    font-size: medium;
+}
+
+.Wbold {
+    font-family: "Work Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.Witalic {
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.NBold {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: bolder;
+}
+
+.NItalic {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.Qbold {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+}
+
+.Qitalic {
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    font-style: italic;
 }
 
 .fonts #font li {
     margin: 20px;
     display: inline-block;
+    position: relative;
+    bottom: 80px;
+}
+
+/* Text Styles */
+#header{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-indent: 4.3%;
+}
+
+.text ul {
+    margin: 0px auto;
+    padding: 50px;
+}
+
+.text ul li {
+    margin: 20px;
+    display: block;
     position: relative;
     bottom: 80px;
 }
